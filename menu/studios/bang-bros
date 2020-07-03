@@ -1,1 +1,16 @@
-s
+<?xml version="1.0" encoding="utf-8"?>
+
+<layouttype>thumbnail</layouttype>
+
+<channels>
+
+<channel>
+<name>[B][COLOR white]Bang[/COLOR] [COLOR gold]Bros HD[/COLOR][/B]</name>
+<thumbnail>https://raw.githubusercontent.com/kodi-megaporno/megaporno/master/logos/ghb.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/kodimegatv/megatv/master/desenhos-24-horas</externallink>
+<fanart></fanart>
+<info>Mega Pornô</info>
+</channel>  
+  
+    
+</channels>
