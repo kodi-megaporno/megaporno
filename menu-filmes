@@ -5,9 +5,9 @@
 <channels>
 
 <channel>
-<name>[B][COLOR lime]●[/COLOR][/B] [B][COLOR white]Filmes[/COLOR][/B]</name>
+<name>[B][COLOR lime]●[/COLOR][/B] [B][COLOR white]Stúdios[/COLOR][/B]</name>
 <thumbnail></thumbnail>
-<externallink>https://raw.githubusercontent.com/kodimegatv/megatv/master/menu-filmes</externallink>
+<externallink>https://raw.githubusercontent.com/kodimegatv/megatv/master/menu-studios</externallink>
 <fanart></fanart>
 <info>Mega TV</info>
 </channel>  
