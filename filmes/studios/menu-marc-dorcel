@@ -1,19 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+#EXTM3U
 
-<item>
-<title>[B][COLOR white]Cartoon Network d[/COLOR][/B]</title>
-<link>$doregex[BP1]des_culs_de_reve$doregex[BP2]$$lsname=[B][COLOR white]Cartoon Network[/COLOR] [COLOR gold]HD[/COLOR][/B]</link>
-<regex><name>BP1</name><expres>$pyFunction:base64.urlsafe_b64decode("$doregex[BPL]")</expres><page></page></regex>
-<regex><name>BPL</name><expres>(.*?).rctv</expres><page>https://pastebin.com/raw/vMerBCyb</page></regex>
-<regex><name>BP2</name><expres>$pyFunction:base64.urlsafe_b64decode("$doregex[BPD]")</expres><page></page></regex>
-<regex><name>BPD</name><expres>(.*?).rctvd</expres><page>https://pastebin.com/raw/vMerBCyb</page></regex>
-<link>$doregex[F4M1]$doregex[F4M2]des_culs_de_reve$doregex[F4M3]$$lsname=[B][COLOR white]Reproduzir Com[/COLOR] [COLOR gold]F4MTester[/COLOR][/B]</link>
-<regex><name>F4M1</name><expres>$pyFunction:base64.urlsafe_b64decode("$doregex[F4ML]")</expres><page></page></regex>
-<regex><name>F4ML</name><expres>(.*?).rctv2</expres><page>https://pastebin.com/raw/vMerBCyb</page></regex>
-<regex><name>F4M2</name><expres>$pyFunction:base64.urlsafe_b64decode("$doregex[F4MU]")</expres><page></page></regex>
-<regex><name>F4MU</name><expres>(.*?).rctv</expres><page>https://pastebin.com/raw/vMerBCyb</page></regex>
-<regex><name>F4M3</name><expres>$pyFunction:base64.urlsafe_b64decode("$doregex[F4MD]")</expres><page></page></regex>
-<regex><name>F4MD</name><expres>(.*?).rctvd2</expres><page>https://pastebin.com/raw/vMerBCyb</page></regex>
-<thumbnail>https://raw.githubusercontent.com/kodimegatv/megatv/master/logos/cartoon-network.png</thumbnail>
-</item>
+#EXTINF:-1 tvg-logo="",[B][COLOR white]Gloob 2[/COLOR][/B]
+plugin://plugin.video.f4mTester/?name=[B][COLOR white]Gloob 2[/COLOR][/B]&streamtype=TSDOWNLOADER&amp;url=https://v1.paradisehill.cc/video/des_culs_de_reve.mp4
 
+#EXTINF:-1 tvg-logo="",[B][COLOR white]Gloob 3[/COLOR][/B]
+plugin://plugin.video.f4mTester/?name=[B][COLOR white]Gloob 3[/COLOR][/B]&streamtype=HLSRETRY&amp;url=https://v1.paradisehill.cc/video/des_culs_de_reve.mp4
