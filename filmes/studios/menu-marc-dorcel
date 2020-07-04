@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <item>
-<title>[B][COLOR white]Des Culs de Reve[/COLOR][/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[B][COLOR white]Mega[/COLOR] [COLOR deeppink]Pornô[/COLOR][/B]&url=https://v1.paradisehill.cc/video/des_culs_de_reve.mp4</link>
+<title>[B][COLOR white]Des Culs de Reve 2[/COLOR][/B]</title>
+<link>$doregex[BP1]des_culs_de_reve$doregex[BP2]</link>
+<regex><name>BP1</name><expres>$pyFunction:base64.urlsafe_b64decode("$doregex[BPL]")</expres><page></page></regex>
+<regex><name>BPL</name><expres>"(.*?).video</expres><page>https://pastebin.com/raw/vMerBCyb</page></regex>
+<regex><name>BP2</name><expres>$pyFunction:base64.urlsafe_b64decode("$doregex[BPD]")</expres><page></page></regex>
+<regex><name>BPD</name><expres>"(.*?).marcdorcel</expres><page>https://pastebin.com/raw/vMerBCyb</page></regex>
 <thumbnail>https://raw.githubusercontent.com/kodi-megaporno/megaporno/master/capas/des-culs-de-reve.png</thumbnail>
 <fanart></fanart>
 </item>
